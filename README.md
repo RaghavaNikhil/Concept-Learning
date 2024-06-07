@@ -29,11 +29,3 @@ This image embedding will be used by decoder to generate the image.
 * Understand of the MagicBrush dataset is important as we will use it to train the model.
 * Last image editing paper is for reference. Understand the motivation, problem statement, and how they evaluate their model. (**it's fine if you don't understand the complex modeling strategy mentioned in the paper**)
 
-# Project Goals
-
-* (2 weeks) Play with the [sample_test.py](src/sample_test.py) script and try to play with different settings on MagicBrush + Visual Instruction examples. Here, we want to observe how much performance do we get without training.
-  * Spend some time to learn the CLIP model and how it is used inside the Kandinsky model within the `sample_test.py`.
-* (2 weeks) Prepare the dataset and create first version of the training procedure. **[more details will be provided soon]**
-* (2 weeks) Introduce different loss functions to improve the results and get the SotA method. 
-* (1 week) Summarize the findings and write the report.
-* If interested and results are promising then extend this work and write the research paper.
